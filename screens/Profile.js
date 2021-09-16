@@ -46,7 +46,7 @@ export default class Profile extends React.Component {
     }
 
 
-    toogleSwitch = () => {
+    toggleSwitch = () => {
         const previous_theme = this.state.isEnabled
         const theme = this.state.isEnabled ? 'light' : 'dark'
         var updates = {}
